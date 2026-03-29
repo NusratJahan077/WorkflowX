@@ -8,6 +8,7 @@ const Banner = () => {
        
          <div className="relative min-h-162.5 flex items-center overflow-hidden">
           <div className=" mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center relative z-10">
+
             {/* Left Content */}
             <div className="space-y-4">
               <div className="inline-flex items-center gap-2 bg-indigo-100 border border-b-blue-500 text-blue-700 text-sm font-medium px-5 py-2 rounded-full">
@@ -19,7 +20,7 @@ const Banner = () => {
                 Digital Workflow
               </h1>
     
-              <p className="text-lg text-zinc-700 max-w-lg">
+              <p className="text-lg text-zinc-700 max-w-lg opacity-70">
                Access premium AI tools, design assets, templates, and productivity <br />
               software—all in one place. Start creating faster today <br />
               Explore Products
@@ -49,28 +50,22 @@ const Banner = () => {
                  </button>
 
                 </div>
-
-
-     <div className="flex items-center gap-8 text-sm text-zinc-600 pt-6">
-            <div>✓ 50+ Frontier Models</div>
-            <div>✓ No Usage Limits</div>
-            <div>✓ Cancel Anytime</div>
-          </div>
+        
         </div>
-    
-            {/* Right Image */}
-            <div className="relative flex justify-center lg:justify-end">
+     
+        
+         <div className="relative flex justify-center lg:justify-end">
               <div className="relative">
                 <img
                   className="relative h-130 w-auto object-contain drop-shadow-2xl rounded-3xl animate-pulse"
                   src={BannerImage}
-                  alt="AI Models Banner"
-                />
+                  alt="AI Models Banner" />
               </div>
+
             </div>
           </div>
         </div>
-       
+     
        
        </>
   );
