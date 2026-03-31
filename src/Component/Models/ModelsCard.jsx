@@ -3,10 +3,12 @@ import React, { useState } from 'react';
 import { FcCheckmark } from "react-icons/fc";
 
 
-const ModelsCard = ({model}) => {
+const ModelsCard = ({model ,carts ,setCarts}) => {
    const[isBuy ,setIsBuy] =useState(false)
   const handleBuy =()=>{
    setIsBuy(true)
+   setCarts([...carts ,model])
+
    }
   return (
     

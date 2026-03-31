@@ -2,7 +2,7 @@
  import  { use } from 'react';
 import ModelsCard from './ModelsCard';
 
-const Models = ({ ArifaPromidse }) => {
+const Models = ({ ArifaPromidse  ,carts,setCarts}) => {
   const models = use(ArifaPromidse);
   // const [activeTab ] =useState("Products")
   // console.log(activeTab);
@@ -24,10 +24,16 @@ const Models = ({ ArifaPromidse }) => {
 </div>
   
 
+
+
+
+
+
+
       {/* Cards Section */}
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-10  max-w-6xl  mx-auto'>
-        {models.map((model) => (
-          <ModelsCard key={model.id} model={model}/>
+        {models.map((model,index) => (
+          <ModelsCard key={index} model={model} setCarts={setCarts} carts={carts}/>
         ))}
       </div>
 
