@@ -2,8 +2,8 @@
  import  { use } from 'react';
 import ModelsCard from './ModelsCard';
 
-const Models = ({ ArifaPromidse  ,carts,setCarts}) => {
-  const models = use(ArifaPromidse);
+const Models = ({ dataPromise  ,carts,setCarts}) => {
+  const models = use(dataPromise);
   // const [activeTab ] =useState("Products")
   // console.log(activeTab);
 
@@ -23,11 +23,6 @@ const Models = ({ ArifaPromidse  ,carts,setCarts}) => {
         </p>
 </div>
   
-
-
-
-
-
 
 
       {/* Cards Section */}

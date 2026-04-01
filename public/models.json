@@ -31,11 +31,11 @@
   },
   {
     "id": 2,
-    "title": "Design Templates Pack",
+    "title": "React",
     "tag": "Popular",
     "price": 49,
     "billing": "One-Time",
-    "icon": "../src/assets/design-tool.png",
+    "icon": "/src/assets/react.svg",
     
     "description": "2000+ premium templates for social media, presentations, and marketing materials.",
     "features": [
