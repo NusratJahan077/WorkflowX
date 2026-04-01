@@ -7,10 +7,11 @@ import Cart from './Component/Cart/Cart';
 import Footer from './Component/Footer';
 import Models from './Component/Models/Models';
 import Navbar from './Component/Navbar';
-import Steps from './steps';
 import Pricing from './Pricing';
 import StatsSection from './Component/StatsSection';
 import CatSection from './Component/CatSection';
+import Steps from './Steps';
+
 
 const getModels = async () => {
   const res = await fetch("/models.json");
@@ -69,7 +70,7 @@ function App() {
 
      
 
-          <Steps />
+        <Steps/>
           <Pricing  />
           <CatSection />
           <Footer />

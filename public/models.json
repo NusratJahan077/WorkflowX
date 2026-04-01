@@ -30,7 +30,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "React",
     "tag": "Popular",
     "price": 49,
@@ -75,19 +75,51 @@
       "Export to PDF"
     ]
   },
+
+ 
   {
     "id": 6,
-    "title": "Social Media Content Kit",
+    "title": "AI Writing Assistant",
     "tag": "Best Seller",
-    "price": 39,
-    "billing": "Mo",
-    "icon": "../src/assets/social-media.png",
-    
-    "description": "Complete toolkit for creating engaging social media content across all platforms.",
-    "features": [
-      "5000+ assets",
-      "Scheduler included",
-      "Analytics dashboard"
-    ]
+    "price": 29,
+    "billing": "Monthly",
+    "icon": "https://img.icons8.com/color/96/artificial-intelligence.png",
+    "description": "Generate high-quality articles, blogs, and marketing copy instantly.",
+    "features": ["Unlimited AI-generated content", "SEO optimization", "Multi-language support"]
+  },
+  {
+    "id": 7,
+    "title": "Portfolio Designer",
+    "tag": "Popular",
+    "price": 20,
+    "billing": "One-Time",
+    "icon": "https://img.icons8.com/color/96/portfolio.png",
+    "description": "Design stunning portfolios to showcase your work professionally.",
+    "features": ["Drag & drop builder", "Responsive templates", "Exportable to PDF & web"]
+  },
+  {
+    "id": 8,
+    "title": "Task Manager Pro",
+    "tag": "New",
+    "price": 12,
+    "billing": "Monthly",
+    "icon": "https://img.icons8.com/color/96/task.png",
+    "description": "Organize and track your tasks efficiently for better productivity.",
+    "features": ["Task prioritization", "Reminders & notifications", "Team collaboration"]
+  },
+  
+ 
+
+  {
+    "id": 9,
+    "title": "Email Marketing Pro",
+    "tag": "Best Seller",
+    "price": 25,
+    "billing": "Monthly",
+    "icon": "https://img.icons8.com/color/96/email.png",
+    "description": "Create and send professional email campaigns that convert.",
+    "features": ["Drag & drop email builder", "Segmentation & targeting", "Performance analytics"]
   }
+
+  
 ]

@@ -10,7 +10,7 @@ const Cart = ({ carts=[], setCarts }) => {
   // Handle payment (clear cart and show success message)
   const handlePayment = () => {
     setCarts([]);
-    toast.success("Payment successful!");
+    toast.success("Checkout complete 🎉 Your tools are ready!");
   };
 
   // Handle removing a single item from cart
@@ -21,7 +21,7 @@ const Cart = ({ carts=[], setCarts }) => {
   };
 
   return (
-    <div className="py-20 mb-32  max-w-5xl mx-autoborder-gray-400 opacity-80 rounded-xl p-8 bg-white shadow-lg ">
+    <div className="py-20 mb-32 justify-center max-w-5xl mx-auto border border-gray-400 opacity-80 rounded-xl p-8 bg-white shadow-lg ">
       {/* Cart Header */}
       <h2 className="text-3xl font-bold ">Your Cart</h2>
 
