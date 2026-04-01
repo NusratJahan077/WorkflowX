@@ -4,15 +4,10 @@
     "title": "AI Writing Pro",
     "tag": "Best Seller",
     "price": 29,
-    "billing": "Mo",
-    "icon": "../src/assets/writting.png",
-  
+    "billing": "Monthly",
+    "icon": "https://img.icons8.com/color/96/artificial-intelligence.png",
     "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
-    "features": [
-      "Unlimited AI generations",
-      "50+ writing templates",
-      "Grammar checker"
-    ]
+    "features": ["Unlimited AI generations", "50+ writing templates", "Grammar checker"]
   },
   {
     "id": 2,
@@ -20,14 +15,9 @@
     "tag": "Popular",
     "price": 49,
     "billing": "One-Time",
-    "icon": "../src/assets/design-tool.png",
-   
+    "icon": "https://img.icons8.com/color/96/design.png",
     "description": "2000+ premium templates for social media, presentations, and marketing materials.",
-    "features": [
-      "2000+ templates",
-      "Monthly updates",
-      "Commercial license"
-    ]
+    "features": ["2000+ templates", "Monthly updates", "Commercial license"]
   },
   {
     "id": 3,
@@ -35,91 +25,40 @@
     "tag": "Popular",
     "price": 49,
     "billing": "One-Time",
-    "icon": "/src/assets/react.svg",
-    
-    "description": "2000+ premium templates for social media, presentations, and marketing materials.",
-    "features": [
-      "2000+ templates",
-      "Monthly updates",
-      "Commercial license"
-    ]
+    "icon": "https://img.icons8.com/color/96/react-native.png",
+    "description": "Build interactive UIs and single-page applications with React framework.",
+    "features": ["Component-based architecture", "Reusable code", "Fast rendering"]
   },
- 
+  
   {
     "id": 4,
-    "title": "Automation Toolkit",
-    "tag": "Popular",
-    "price": 79,
-    "billing": "Mo",
-    "icon": "../src/assets/operation.png",
-    
-    "description": "Automate repetitive tasks and streamline your workflow with powerful tools.",
-    "features": [
-      "50+ automations",
-      "API access",
-      "Custom workflows"
-    ]
-  },
-  {
-    "id": 5,
     "title": "Resume Builder Pro",
     "tag": "New",
     "price": 15,
     "billing": "One-Time",
-    "icon": "../src/assets/portfolio.png",
-    
+    "icon": "https://img.icons8.com/color/96/resume.png",
     "description": "Create professional resumes and cover letters that land interviews.",
-    "features": [
-      "100+ templates",
-      "ATS optimization",
-      "Export to PDF"
-    ]
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"]
   },
-
- 
+  
   {
     "id": 6,
-    "title": "AI Writing Assistant",
-    "tag": "Best Seller",
-    "price": 29,
-    "billing": "Monthly",
-    "icon": "https://img.icons8.com/color/96/artificial-intelligence.png",
-    "description": "Generate high-quality articles, blogs, and marketing copy instantly.",
-    "features": ["Unlimited AI-generated content", "SEO optimization", "Multi-language support"]
+    "title": "Video Editor Pro",
+    "tag": "Popular",
+    "price": 35,
+    "billing": "One-Time",
+    "icon": "https://img.icons8.com/color/96/video.png",
+    "description": "Edit professional-quality videos with advanced tools and templates.",
+    "features": ["Multi-track editing", "Transitions & effects", "Export in 4K"]
   },
   {
     "id": 7,
-    "title": "Portfolio Designer",
-    "tag": "Popular",
-    "price": 20,
-    "billing": "One-Time",
-    "icon": "https://img.icons8.com/color/96/portfolio.png",
-    "description": "Design stunning portfolios to showcase your work professionally.",
-    "features": ["Drag & drop builder", "Responsive templates", "Exportable to PDF & web"]
-  },
-  {
-    "id": 8,
-    "title": "Task Manager Pro",
+    "title": "Invoice Generator",
     "tag": "New",
-    "price": 12,
+    "price": 10,
     "billing": "Monthly",
-    "icon": "https://img.icons8.com/color/96/task.png",
-    "description": "Organize and track your tasks efficiently for better productivity.",
-    "features": ["Task prioritization", "Reminders & notifications", "Team collaboration"]
-  },
-  
- 
-
-  {
-    "id": 9,
-    "title": "Email Marketing Pro",
-    "tag": "Best Seller",
-    "price": 25,
-    "billing": "Monthly",
-    "icon": "https://img.icons8.com/color/96/email.png",
-    "description": "Create and send professional email campaigns that convert.",
-    "features": ["Drag & drop email builder", "Segmentation & targeting", "Performance analytics"]
+    "icon": "https://img.icons8.com/color/96/invoice.png",
+    "description": "Create, send, and manage invoices easily for freelancers and small businesses.",
+    "features": ["Custom invoice templates", "Automated reminders", "PDF & email export"]
   }
-
-  
 ]
