@@ -23,7 +23,7 @@ If you are developing a production application, we recommend using TypeScript wi
 ![Project Preview](./screenshot.png)
 
 ## Live Demo
-🌐 [View Live Site](https://visionary-croquembouche-arifa.netlify.app)
+🌐 [View Live Site]https://visionary-croquembouche-arifa.netlify.app
 
 ## Overview
 Ei project Vite + React diye build kora, fast SWC compiler, TypeScript ready, ESLint + Prettier diye clean code ensure kora hoyeche. Tailwind CSS diye responsive styling kora hoyeche.
