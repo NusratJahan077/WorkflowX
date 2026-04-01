@@ -32,17 +32,17 @@ function App() {
     <Banner/>
 
 {/* name of each tab group should be unique */}
-<div className="tabs tabs-box justify-center">
+ <div className="tabs tabs-box justify-center">
 
   <input type="radio" name="my_tabs_1" className="tab rounded-full  w-40" aria-label="Products" onClick={() => setActiveTab("Products")} defaultChecked/>
 
-  <input type="radio" name="my_tabs_1" className="tab rounded-full w-40" aria-label="Cart" onClick={() => setActiveTab("cart")} />
+  <input type="radio" name="my_tabs_1" className="tab rounded-full w-40" aria-label={`art(${carts.length})`} onClick={() => setActiveTab("cart")} />
   
-</div>
+</div> 
 
    { activeTab === "Products" && <Models ArifaPromidse={ArifaPromidse}  carts={carts} setCarts={setCarts}/>}
 
-  { activeTab === "cart" && <Cart carts={carts} setCarts={setCarts}/>}
+  activeTab === "cart" && <Cart carts={carts} setCarts={setCarts}/> 
 
    <Footer/>
     </>

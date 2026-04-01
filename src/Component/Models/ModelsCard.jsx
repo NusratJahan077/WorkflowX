@@ -1,14 +1,21 @@
 
 import React, { useState } from 'react';
 import { FcCheckmark } from "react-icons/fc";
+import { toast } from 'react-toastify';
 
 
 const ModelsCard = ({model ,carts ,setCarts}) => {
    const[isBuy ,setIsBuy] =useState(false)
   const handleBuy =()=>{
    setIsBuy(true)
-   setCarts([...carts ,model])
 
+   const isFound =carts.find(item => item.id === model.id)
+   if(isFound){
+    toast.error("Item already in cart")
+    return
+   }
+   setCarts([...carts ,model])
+  toast.success("Item added to card !")
    }
   return (
     
