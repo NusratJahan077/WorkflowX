@@ -19,8 +19,8 @@ If you are developing a production application, we recommend using TypeScript wi
 
 
 # Project Name
+WorkflowX
 
-![Project Preview](./screenshot.png)
 
 ## Live Demo
 🌐 [View Live Site]https://visionary-croquembouche-arifa.netlify.app
