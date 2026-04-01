@@ -15,4 +15,27 @@ The React Compiler is not enabled on this template because of its impact on dev 
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 
- [View Live Site] https://visionary-croquembouche-arifa.netlify.app/
+
+
+
+# Project Name
+
+![Project Preview](./screenshot.png)
+
+## Live Demo
+🌐 [View Live Site](https://visionary-croquembouche-arifa.netlify.app)
+
+## Overview
+Ei project Vite + React diye build kora, fast SWC compiler, TypeScript ready, ESLint + Prettier diye clean code ensure kora hoyeche. Tailwind CSS diye responsive styling kora hoyeche.
+
+## Features
+- ⚡ Fast dev & build with SWC
+- 📝 Type-safe code with TypeScript
+- 🎨 Tailwind CSS for modern UI
+- ✅ ESLint + Prettier for clean code
+- 🔗 Live site deployed on Netlify
+
+## Setup Instructions
+1. `npm install`  # install dependencies
+2. `npm run dev`  # start local dev server
+3. `npm run build`  # production build
